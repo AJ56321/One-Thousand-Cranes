@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: fef078fc22f57194b9767243bc949bdf
+timeCreated: 1444181376
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BG clouds_0
+    21300002: BG clouds_1
+    21300004: BG clouds_2
+    21300006: BG clouds_3
+    21300008: BG clouds_4
+    21300010: BG clouds_5
+    21300012: BG clouds_6
+    21300014: BG clouds_7
+    21300016: BG clouds_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BG clouds_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2306
+        width: 1247
+        height: 928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BG clouds_1
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 2501
+        width: 1088
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BG clouds_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1288
+        width: 808
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BG clouds_3
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1345
+        width: 820
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BG clouds_4
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1569
+        width: 551
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BG clouds_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 751
+        width: 268
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BG clouds_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 667
+        width: 1683
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BG clouds_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 266
+        width: 493
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BG clouds_8
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 0
+        width: 1891
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

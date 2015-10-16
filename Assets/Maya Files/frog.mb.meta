@@ -1,0 +1,651 @@
+fileFormatVersion: 2
+guid: 2b6a844466e884d53b3e904f982c3029
+timeCreated: 1444349598
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: frog
+    100002: //RootNode
+    100004: globalCtrl
+    100006: group1
+    100008: head
+    100010: hipCtrl
+    100012: ikHandle1
+    100014: ikHandle2
+    100016: ikHandle3
+    100018: ikHandle4
+    100020: lf_ankle
+    100022: lf_arm_end
+    100024: lf_backFootCtrl
+    100026: lf_backKneeCtrl
+    100028: lf_elbow
+    100030: lf_frontKneeCtrl
+    100032: lf_hip
+    100034: lf_knee
+    100036: lf_leg_end
+    100038: lf_shoulder
+    100040: lf_wrist
+    100042: Root
+    100044: rt_ankle
+    100046: rt_arm_end
+    100048: rt_backFootCtrl
+    100050: rt_backKneeCtrl
+    100052: rt_elbow
+    100054: rt_frontFootCtrl
+    100056: rt_frontFootCtrl1
+    100058: rt_frontKneeCtrl
+    100060: rt_hip
+    100062: rt_knee
+    100064: rt_leg_end
+    100066: rt_shoulder
+    100068: rt_wrist
+    100070: spine1
+    100072: transform1
+    400000: frog
+    400002: //RootNode
+    400004: globalCtrl
+    400006: group1
+    400008: head
+    400010: hipCtrl
+    400012: ikHandle1
+    400014: ikHandle2
+    400016: ikHandle3
+    400018: ikHandle4
+    400020: lf_ankle
+    400022: lf_arm_end
+    400024: lf_backFootCtrl
+    400026: lf_backKneeCtrl
+    400028: lf_elbow
+    400030: lf_frontKneeCtrl
+    400032: lf_hip
+    400034: lf_knee
+    400036: lf_leg_end
+    400038: lf_shoulder
+    400040: lf_wrist
+    400042: Root
+    400044: rt_ankle
+    400046: rt_arm_end
+    400048: rt_backFootCtrl
+    400050: rt_backKneeCtrl
+    400052: rt_elbow
+    400054: rt_frontFootCtrl
+    400056: rt_frontFootCtrl1
+    400058: rt_frontKneeCtrl
+    400060: rt_hip
+    400062: rt_knee
+    400064: rt_leg_end
+    400066: rt_shoulder
+    400068: rt_wrist
+    400070: spine1
+    400072: transform1
+    4300000: frog
+    7400000: Launch
+    7400002: Hangtime
+    7400004: Falling
+    7400006: Land
+    7400008: Idle
+    9500000: //RootNode
+    13700000: frog
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Launch
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: globalCtrl
+        weight: 1
+      - path: globalCtrl/hipCtrl
+        weight: 1
+      - path: globalCtrl/hipCtrl/ikHandle4
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee/lf_ankle
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee/lf_ankle/lf_leg_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee/rt_ankle
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee/rt_ankle/rt_leg_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/head
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow/lf_wrist
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow/lf_wrist/lf_arm_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow/rt_wrist
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow/rt_wrist/rt_arm_end
+        weight: 1
+      - path: globalCtrl/ikHandle1
+        weight: 1
+      - path: globalCtrl/ikHandle2
+        weight: 1
+      - path: globalCtrl/ikHandle3
+        weight: 1
+      - path: globalCtrl/lf_backFootCtrl
+        weight: 1
+      - path: globalCtrl/lf_backKneeCtrl
+        weight: 1
+      - path: globalCtrl/lf_frontKneeCtrl
+        weight: 1
+      - path: globalCtrl/rt_backFootCtrl
+        weight: 1
+      - path: globalCtrl/rt_backKneeCtrl
+        weight: 1
+      - path: globalCtrl/rt_frontFootCtrl
+        weight: 1
+      - path: globalCtrl/rt_frontFootCtrl1
+        weight: 1
+      - path: globalCtrl/rt_frontKneeCtrl
+        weight: 1
+      - path: group1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hangtime
+      takeName: Take 001
+      firstFrame: 16
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: globalCtrl
+        weight: 1
+      - path: globalCtrl/hipCtrl
+        weight: 1
+      - path: globalCtrl/hipCtrl/ikHandle4
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee/lf_ankle
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee/lf_ankle/lf_leg_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee/rt_ankle
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee/rt_ankle/rt_leg_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/head
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow/lf_wrist
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow/lf_wrist/lf_arm_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow/rt_wrist
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow/rt_wrist/rt_arm_end
+        weight: 1
+      - path: globalCtrl/ikHandle1
+        weight: 1
+      - path: globalCtrl/ikHandle2
+        weight: 1
+      - path: globalCtrl/ikHandle3
+        weight: 1
+      - path: globalCtrl/lf_backFootCtrl
+        weight: 1
+      - path: globalCtrl/lf_backKneeCtrl
+        weight: 1
+      - path: globalCtrl/lf_frontKneeCtrl
+        weight: 1
+      - path: globalCtrl/rt_backFootCtrl
+        weight: 1
+      - path: globalCtrl/rt_backKneeCtrl
+        weight: 1
+      - path: globalCtrl/rt_frontFootCtrl
+        weight: 1
+      - path: globalCtrl/rt_frontFootCtrl1
+        weight: 1
+      - path: globalCtrl/rt_frontKneeCtrl
+        weight: 1
+      - path: group1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Falling
+      takeName: Take 001
+      firstFrame: 32
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: globalCtrl
+        weight: 1
+      - path: globalCtrl/hipCtrl
+        weight: 1
+      - path: globalCtrl/hipCtrl/ikHandle4
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee/lf_ankle
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee/lf_ankle/lf_leg_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee/rt_ankle
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee/rt_ankle/rt_leg_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/head
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow/lf_wrist
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow/lf_wrist/lf_arm_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow/rt_wrist
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow/rt_wrist/rt_arm_end
+        weight: 1
+      - path: globalCtrl/ikHandle1
+        weight: 1
+      - path: globalCtrl/ikHandle2
+        weight: 1
+      - path: globalCtrl/ikHandle3
+        weight: 1
+      - path: globalCtrl/lf_backFootCtrl
+        weight: 1
+      - path: globalCtrl/lf_backKneeCtrl
+        weight: 1
+      - path: globalCtrl/lf_frontKneeCtrl
+        weight: 1
+      - path: globalCtrl/rt_backFootCtrl
+        weight: 1
+      - path: globalCtrl/rt_backKneeCtrl
+        weight: 1
+      - path: globalCtrl/rt_frontFootCtrl
+        weight: 1
+      - path: globalCtrl/rt_frontFootCtrl1
+        weight: 1
+      - path: globalCtrl/rt_frontKneeCtrl
+        weight: 1
+      - path: group1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Land
+      takeName: Take 001
+      firstFrame: 47
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: globalCtrl
+        weight: 1
+      - path: globalCtrl/hipCtrl
+        weight: 1
+      - path: globalCtrl/hipCtrl/ikHandle4
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee/lf_ankle
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee/lf_ankle/lf_leg_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee/rt_ankle
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee/rt_ankle/rt_leg_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/head
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow/lf_wrist
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow/lf_wrist/lf_arm_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow/rt_wrist
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow/rt_wrist/rt_arm_end
+        weight: 1
+      - path: globalCtrl/ikHandle1
+        weight: 1
+      - path: globalCtrl/ikHandle2
+        weight: 1
+      - path: globalCtrl/ikHandle3
+        weight: 1
+      - path: globalCtrl/lf_backFootCtrl
+        weight: 1
+      - path: globalCtrl/lf_backKneeCtrl
+        weight: 1
+      - path: globalCtrl/lf_frontKneeCtrl
+        weight: 1
+      - path: globalCtrl/rt_backFootCtrl
+        weight: 1
+      - path: globalCtrl/rt_backKneeCtrl
+        weight: 1
+      - path: globalCtrl/rt_frontFootCtrl
+        weight: 1
+      - path: globalCtrl/rt_frontFootCtrl1
+        weight: 1
+      - path: globalCtrl/rt_frontKneeCtrl
+        weight: 1
+      - path: group1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 68
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: globalCtrl
+        weight: 1
+      - path: globalCtrl/hipCtrl
+        weight: 1
+      - path: globalCtrl/hipCtrl/ikHandle4
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee/lf_ankle
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/lf_hip/lf_knee/lf_ankle/lf_leg_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee/rt_ankle
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/rt_hip/rt_knee/rt_ankle/rt_leg_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/head
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow/lf_wrist
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/lf_shoulder/lf_elbow/lf_wrist/lf_arm_end
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow/rt_wrist
+        weight: 1
+      - path: globalCtrl/hipCtrl/transform1/Root/spine1/rt_shoulder/rt_elbow/rt_wrist/rt_arm_end
+        weight: 1
+      - path: globalCtrl/ikHandle1
+        weight: 1
+      - path: globalCtrl/ikHandle2
+        weight: 1
+      - path: globalCtrl/ikHandle3
+        weight: 1
+      - path: globalCtrl/lf_backFootCtrl
+        weight: 1
+      - path: globalCtrl/lf_backKneeCtrl
+        weight: 1
+      - path: globalCtrl/lf_frontKneeCtrl
+        weight: 1
+      - path: globalCtrl/rt_backFootCtrl
+        weight: 1
+      - path: globalCtrl/rt_backKneeCtrl
+        weight: 1
+      - path: globalCtrl/rt_frontFootCtrl
+        weight: 1
+      - path: globalCtrl/rt_frontFootCtrl1
+        weight: 1
+      - path: globalCtrl/rt_frontKneeCtrl
+        weight: 1
+      - path: group1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

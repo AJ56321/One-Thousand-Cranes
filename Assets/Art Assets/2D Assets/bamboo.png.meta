@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 56b4785c99413c34889d25c95f478a71
+timeCreated: 1444004796
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bamboo_straight
+    21300002: bamboo_bent
+    21300004: bamboo_moreBent
+    21300006: bamboo_section
+    21300008: bamboo_leaf
+    21300010: bamboo_leavesSmall
+    21300012: bamboo_leavesLarge
+    21300014: bamboo_smallStem
+    21300016: bamboo_stem
+    21300018: bamboo_top
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bamboo_straight
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 110
+        height: 2716
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bamboo_bent
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 147
+        width: 326
+        height: 2722
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bamboo_moreBent
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 146
+        width: 473
+        height: 2724
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bamboo_section
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 2575
+        width: 117
+        height: 451
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bamboo_leaf
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 2049
+        width: 81
+        height: 351
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bamboo_leavesSmall
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1638
+        width: 248
+        height: 255
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bamboo_leavesLarge
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 887
+        width: 667
+        height: 531
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bamboo_smallStem
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 443
+        width: 21
+        height: 208
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bamboo_stem
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 0
+        width: 38
+        height: 657
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bamboo_top
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 219
+        width: 100
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

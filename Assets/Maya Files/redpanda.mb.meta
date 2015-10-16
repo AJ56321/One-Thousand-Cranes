@@ -1,0 +1,366 @@
+fileFormatVersion: 2
+guid: 3bb7907cbc5fb482ba6f0dae0d8c15ab
+timeCreated: 1444349869
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: COG
+    100002: curve1
+    100004: head
+    100006: head_end
+    100008: ikHandle2
+    100010: ikHandle3
+    100012: ikHandle4
+    100014: ikHandle5
+    100016: lf_arm
+    100018: lf_foot
+    100020: lf_foot 1
+    100022: lf_foot_end
+    100024: lf_foot_end 1
+    100026: lf_footCtrl_back
+    100028: lf_footCtrl_back1
+    100030: lf_footCtrl_back2
+    100032: lf_knee
+    100034: lf_leg
+    100036: neckCtrl
+    100038: redpanda
+    100040: //RootNode
+    100042: root
+    100044: rt_arm
+    100046: rt_foot
+    100048: rt_foot 1
+    100050: rt_foot_end
+    100052: rt_foot_end 1
+    100054: rt_footCtrl_back
+    100056: rt_knee
+    100058: rt_leg
+    100060: spine1
+    100062: spine2
+    100064: spine_highCtrl
+    100066: spine_lowCtrl
+    100068: tail1
+    100070: tail2
+    100072: tail3
+    100074: tail4
+    100076: tail_base
+    100078: tail_end
+    400000: COG
+    400002: curve1
+    400004: head
+    400006: head_end
+    400008: ikHandle2
+    400010: ikHandle3
+    400012: ikHandle4
+    400014: ikHandle5
+    400016: lf_arm
+    400018: lf_foot
+    400020: lf_foot 1
+    400022: lf_foot_end
+    400024: lf_foot_end 1
+    400026: lf_footCtrl_back
+    400028: lf_footCtrl_back1
+    400030: lf_footCtrl_back2
+    400032: lf_knee
+    400034: lf_leg
+    400036: neckCtrl
+    400038: //RootNode
+    400040: redpanda
+    400042: root
+    400044: rt_arm
+    400046: rt_foot
+    400048: rt_foot 1
+    400050: rt_foot_end
+    400052: rt_foot_end 1
+    400054: rt_footCtrl_back
+    400056: rt_knee
+    400058: rt_leg
+    400060: spine1
+    400062: spine2
+    400064: spine_highCtrl
+    400066: spine_lowCtrl
+    400068: tail1
+    400070: tail2
+    400072: tail3
+    400074: tail4
+    400076: tail_base
+    400078: tail_end
+    4300000: redpanda
+    7400000: Walk
+    7400002: Idle
+    9500000: //RootNode
+    13700000: redpanda
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: curve1
+        weight: 1
+      - path: curve1/COG
+        weight: 1
+      - path: curve1/lf_footCtrl_back
+        weight: 1
+      - path: curve1/lf_footCtrl_back1
+        weight: 1
+      - path: curve1/lf_footCtrl_back2
+        weight: 1
+      - path: curve1/neckCtrl
+        weight: 1
+      - path: curve1/rt_footCtrl_back
+        weight: 1
+      - path: curve1/spine_highCtrl
+        weight: 1
+      - path: curve1/spine_lowCtrl
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: ikHandle5
+        weight: 1
+      - path: redpanda
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/lf_leg
+        weight: 1
+      - path: root/lf_leg/lf_knee
+        weight: 1
+      - path: root/lf_leg/lf_knee/lf_foot
+        weight: 1
+      - path: root/lf_leg/lf_knee/lf_foot/lf_foot_end
+        weight: 1
+      - path: root/rt_leg
+        weight: 1
+      - path: root/rt_leg/rt_knee
+        weight: 1
+      - path: root/rt_leg/rt_knee/rt_foot
+        weight: 1
+      - path: root/rt_leg/rt_knee/rt_foot/rt_foot_end
+        weight: 1
+      - path: root/spine1
+        weight: 1
+      - path: root/spine1/spine2
+        weight: 1
+      - path: root/spine1/spine2/head
+        weight: 1
+      - path: root/spine1/spine2/head/head_end
+        weight: 1
+      - path: root/spine1/spine2/lf_arm
+        weight: 1
+      - path: root/spine1/spine2/lf_arm/lf_foot 1
+        weight: 1
+      - path: root/spine1/spine2/lf_arm/lf_foot 1/lf_foot_end 1
+        weight: 1
+      - path: root/spine1/spine2/rt_arm
+        weight: 1
+      - path: root/spine1/spine2/rt_arm/rt_foot 1
+        weight: 1
+      - path: root/spine1/spine2/rt_arm/rt_foot 1/rt_foot_end 1
+        weight: 1
+      - path: root/tail_base
+        weight: 1
+      - path: root/tail_base/tail1
+        weight: 1
+      - path: root/tail_base/tail1/tail2
+        weight: 1
+      - path: root/tail_base/tail1/tail2/tail3
+        weight: 1
+      - path: root/tail_base/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: root/tail_base/tail1/tail2/tail3/tail4/tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: curve1
+        weight: 1
+      - path: curve1/COG
+        weight: 1
+      - path: curve1/lf_footCtrl_back
+        weight: 1
+      - path: curve1/lf_footCtrl_back1
+        weight: 1
+      - path: curve1/lf_footCtrl_back2
+        weight: 1
+      - path: curve1/neckCtrl
+        weight: 1
+      - path: curve1/rt_footCtrl_back
+        weight: 1
+      - path: curve1/spine_highCtrl
+        weight: 1
+      - path: curve1/spine_lowCtrl
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: ikHandle5
+        weight: 1
+      - path: redpanda
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/lf_leg
+        weight: 1
+      - path: root/lf_leg/lf_knee
+        weight: 1
+      - path: root/lf_leg/lf_knee/lf_foot
+        weight: 1
+      - path: root/lf_leg/lf_knee/lf_foot/lf_foot_end
+        weight: 1
+      - path: root/rt_leg
+        weight: 1
+      - path: root/rt_leg/rt_knee
+        weight: 1
+      - path: root/rt_leg/rt_knee/rt_foot
+        weight: 1
+      - path: root/rt_leg/rt_knee/rt_foot/rt_foot_end
+        weight: 1
+      - path: root/spine1
+        weight: 1
+      - path: root/spine1/spine2
+        weight: 1
+      - path: root/spine1/spine2/head
+        weight: 1
+      - path: root/spine1/spine2/head/head_end
+        weight: 1
+      - path: root/spine1/spine2/lf_arm
+        weight: 1
+      - path: root/spine1/spine2/lf_arm/lf_foot 1
+        weight: 1
+      - path: root/spine1/spine2/lf_arm/lf_foot 1/lf_foot_end 1
+        weight: 1
+      - path: root/spine1/spine2/rt_arm
+        weight: 1
+      - path: root/spine1/spine2/rt_arm/rt_foot 1
+        weight: 1
+      - path: root/spine1/spine2/rt_arm/rt_foot 1/rt_foot_end 1
+        weight: 1
+      - path: root/tail_base
+        weight: 1
+      - path: root/tail_base/tail1
+        weight: 1
+      - path: root/tail_base/tail1/tail2
+        weight: 1
+      - path: root/tail_base/tail1/tail2/tail3
+        weight: 1
+      - path: root/tail_base/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: root/tail_base/tail1/tail2/tail3/tail4/tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .140000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
